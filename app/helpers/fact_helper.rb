@@ -11,6 +11,6 @@ module FactHelper
   end
 
   def lang_link(language)
-    link_to language, "http://en.wikipedia.org/wiki/#{language}_language"
+    link_to language, "http://en.wikipedia.org/wiki/#{language}#{ language.match(/[Ll]anguage/) ? '' : '_language'}"
   end
 end

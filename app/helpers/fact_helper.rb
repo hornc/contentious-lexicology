@@ -1,8 +1,12 @@
 module FactHelper
-  def dict_link(word)
-    reference = "http://dictionary.reference.com/browse/"
+  FREE_DICTIONARY = "http://www.thefreedictionary.com/"
+  DICTIONARY_REFERENCE = "http://dictionary.reference.com/browse/"
+  MERRIAM_WEBSTER = "http://www.merriam-webster.com/dictionary/"
+  COLLINS = "http://www.collinsdictionary.com/spellcheck/english/"
+  OXFORD = "http://www.oxforddictionaries.com/search?q="
 
-    site = reference
+  def dict_link(word)
+    site = OXFORD
     link_to word, "#{site}#{word}"
   end
 

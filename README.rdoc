@@ -1,28 +1,9 @@
-== README
+== Contentious Lexicology
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Inspired by an entry in the diary of Derek Jarman, dated the Wed 25 November, 19xx. published in _Smiling In Slow Motion_, p.265: "There is no word for blue in Japanese."
 
-Things you may want to cover:
+Was once deployed to Heroku as a Ruby app. Now out of date.
 
-* Ruby version
+If I were to reuse this I'd make it in something more minimal.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Maybe it'd work as a Twitter bot?
